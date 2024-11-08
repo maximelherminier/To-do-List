@@ -1,0 +1,95 @@
+body{
+    height:100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputAndButton{
+    display: flex;
+    justify-content: center;
+    height: 5%
+}
+
+.inputAndButton input{
+    width: 30%;
+    height: 90%;
+    padding-inline: 1%;
+    border-radius: 20px;
+    margin-right: 10px;
+    border: 3px solid dodgerblue;
+    outline: none;
+}
+
+.inputAndButton button{
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 3px solid dodgerblue;
+    display: flex;
+    align-items: center;
+    color: dodgerblue;
+    background-color: white;
+}
+
+.allContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+    height: 80%;
+}
+
+.container{
+    width: 30%;
+    background: #f6f6f6;
+    height: 90%;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid dodgerblue;
+}
+
+.container h1{
+    margin-bottom: 20px;
+    color: #ffdb1a;
+    width: 100%;
+    border-bottom: 3px solid #ffdb1a;
+}
+
+li{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 100%;
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+    color: #ffdb1a;
+}
+
+li span{
+    display: none;
+    margin-left: 10px;
+}
+
+li:hover span{
+    display: block;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
